@@ -40,8 +40,8 @@ class loginPage : AppCompatActivity() {
 
             //Validasi email tidak sesuai
             if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                binding.loginpasswordInput.error = "Email Tidak Valid"
-                binding.loginpasswordInput.requestFocus()
+                binding.loginemailInput.error = "Email Tidak Valid"
+                binding.loginemailInput.requestFocus()
                 return@setOnClickListener
             }
 
