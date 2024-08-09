@@ -13,6 +13,24 @@
         android:theme="@style/Theme.ProjectKp"
         tools:targetApi="31">
         <activity
+            android:name=".playsoundboypabloo"
+            android:exported="false" />
+        <activity
+            android:name=".albumboypablo"
+            android:exported="false" />
+        <activity
+            android:name=".profilsaya"
+            android:exported="false" />
+        <activity
+            android:name=".search"
+            android:exported="false" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/Theme.ProjectKp.Fullscreen" />
+        <activity
             android:name=".beranda"
             android:exported="false" />
         <activity
