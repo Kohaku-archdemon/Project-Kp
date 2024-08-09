@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".albumboypablo">
-
+    tools:context=".berandahindia">
 
     <EditText
         android:id="@+id/loginemail_input"
@@ -24,15 +23,6 @@
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="255dp" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="417dp"
-        android:layout_height="242dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/boypablooo"
-        tools:layout_editor_absoluteY="-6dp" />
 
     <TextView
         android:id="@+id/textView12"
@@ -84,21 +74,49 @@
         tools:layout_editor_absoluteY="321dp" />
 
     <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="403dp"
-        android:layout_height="222dp"
+        android:id="@+id/imageView51"
+        android:layout_width="412dp"
+        android:layout_height="500dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/albumboypabloo"
-        tools:layout_editor_absoluteY="376dp" />
+        app:srcCompat="@drawable/anjay"
+        tools:layout_editor_absoluteY="-131dp" />
 
     <ImageView
-        android:id="@+id/imageView26"
-        android:layout_width="424dp"
-        android:layout_height="330dp"
+        android:id="@+id/imageView52"
+        android:layout_width="481dp"
+        android:layout_height="232dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/laguboypabloo"
-        tools:layout_editor_absoluteY="568dp" />
+        app:srcCompat="@drawable/playlisthindi"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="402dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lh1"
+        tools:layout_editor_absoluteY="631dp" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="402dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lh2"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="402dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lh3"
+        tools:layout_editor_absoluteY="765dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
